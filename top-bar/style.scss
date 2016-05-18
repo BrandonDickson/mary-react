@@ -1,0 +1,39 @@
+
+.top-bar {
+  background-color:#111;
+  display:flex;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+
+  @media (max-width:800px) {
+    display:none;
+  }
+
+  .top-bar-title {
+    display:block;
+    color:#eee;
+    padding:16px;
+    font-size:18px;
+    font-variant: small-caps;
+
+  }
+
+  .top-bar-section {
+    display: flex;
+    flex-grow: 1;
+
+    &:last-child {
+      flex-grow:0;
+    }
+  }
+
+  .top-bar-link {
+    padding:16px;
+    display:block;
+    text-decoration:none;
+    color:#ff4081;
+    font-size:18px;
+    &:hover {
+      color:#ff40a0;
+    }
+  }
+}

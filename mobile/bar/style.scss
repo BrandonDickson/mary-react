@@ -1,0 +1,26 @@
+.mobile-bar {
+  background:#111;
+  display:flex;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+
+  @media (min-width:800px) {
+    display:none;
+  }
+
+  .mobile-bar-title {
+    color:#eee;
+    font-size:18px;
+    font-variant: small-caps;
+    padding:8px;
+    flex-grow:1;
+  }
+
+  .mobile-bar-expander {
+    border: 0;
+    padding:8px;
+    background: transparent;
+    color:#eee;
+    outline: none;
+  }
+
+}

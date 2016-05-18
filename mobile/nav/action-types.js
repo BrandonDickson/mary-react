@@ -1,0 +1,1 @@
+export const SET_MOBILE_NAV_STATE = 'SET_MOBILE_NAV_STATE'
